@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 load_dotenv()
 
-origins = ["http://localhost:3000"]
+origins = ["https://post-alchemy.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
