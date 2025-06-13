@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner"
 
 export const metadata: Metadata = {
   title: "PostAlchemy | AI-Powered Content Transformation",
@@ -22,6 +23,7 @@ export default function RootLayout({
         ></link>
       </head>
       <body className={`antialiased`}>{children}</body>
+      <Toaster />
     </html>
   );
 }

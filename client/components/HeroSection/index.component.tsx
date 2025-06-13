@@ -9,7 +9,7 @@ const HeroSection = () => {
             <Sparkles className="h-4 w-4" />
             AI-Powered Content Generation
           </div>
-          <h1 style={{wordSpacing: '8px'}} className=' text-5xl font-extrabold flex flex-col justify-center items-center m-8 bg-clip-text text-transparent bg-[linear-gradient(90deg,_rgba(15,23,42,1)_0%,_rgba(124,130,141,1)_50%)]'>
+          <h1 style={{wordSpacing: '8px'}} className=' text-4xl md:text-5xl font-extrabold flex flex-col justify-center items-center m-8 bg-clip-text text-transparent bg-[linear-gradient(90deg,_rgba(15,23,42,1)_0%,_rgba(124,130,141,1)_50%)]'>
             Turn Ideas Into
             <br />
             <span>Viral Posts</span>
