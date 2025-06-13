@@ -21,6 +21,13 @@ async def getPolishedPosts(draft):
 
     remove unneccasry characters, just keep the content which I have to show in my frontend.
 
+    Response should have below fields:
+    1. platform: A string specifying the platform name. Example: "LinkedIn", "Twitter", or "Instagram".
+
+    2. content: Post text appropriate for the platform. Make sure to include hashtags here aswell in the new line.
+
+    3. hashtags: An array of relevant hashtags for the post. Minimum of 4, maximum of 10 (more is acceptable).
+
     Here are the drafts to polish:
 
     {drafts}
