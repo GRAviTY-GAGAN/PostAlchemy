@@ -104,13 +104,14 @@ const PromptingSection = () => {
 
       setPosts(posts.polishedPosts);
       setSummary(posts.summary);
-      setIsLoading(false);
     } catch (error) {
       console.error(`Error while generating posts: ${error}`);
       toast.error("Failed to generate posts", {
         description:
           "Something went wrong while generating the posts. Please try again in some time.",
       });
+    } finally {
+      setIsLoading(false);
     }
   };
 
